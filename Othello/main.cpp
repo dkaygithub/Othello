@@ -1,6 +1,7 @@
 #include "SDL/SDL.h"
 #include "graphic.h"
 
+
 int main( int argc, char* args[] )
 {
     //Start SDL
@@ -8,6 +9,7 @@ int main( int argc, char* args[] )
 
 
     graphic screen;
+    SDL_Event event;
 
 
 
@@ -19,9 +21,20 @@ int main( int argc, char* args[] )
     //  2p
     //  settings
 
+    bool done =false;
+    while(!done)
+    {
+        SDL_Delay(DELAY/2);
+        while (SDL_PollEvent(&event))
+	    {
 
 
 
+
+	    }
+
+
+    }
 
     //Quit SDL
     SDL_Quit();
