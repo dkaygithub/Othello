@@ -11,7 +11,7 @@ int main( int argc, char* args[] )
     graphic screen;
     SDL_Event event;
 
-
+    //hi carolyn
 
 
     SDL_Delay(DELAY);
