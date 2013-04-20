@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1366228558 source:c:\users\daniel kay\documents\cpp projects\othello\main.cpp
+	"SDL/SDL.h"
+
+1366473526 source:c:\users\daniel kay\documents\github\othello\othello\main.cpp
+	"SDL/SDL.h"
+	"graphic.h"
+
+1366473166 source:c:\users\daniel kay\documents\github\othello\othello\graphic.cpp
+	"graphic.h"
+
+1366473571 c:\users\daniel kay\documents\github\othello\othello\graphic.h
+	"SDL/SDL.h"
+
